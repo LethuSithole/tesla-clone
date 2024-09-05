@@ -1,0 +1,147 @@
+/* Importing Google Font Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.content-wrapper{
+    background: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Desktop-US.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+
+
+}
+
+.nav{
+    height: 60px;
+    padding: 0 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-container{
+    width: 125px;
+    height: 60px;
+    display: flex;
+}
+
+.middle-section ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    height: 60px;
+}
+
+.middle-section ul >li{
+    color: #fff;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.middle-section ul >li >a:hover{
+    background-color: #ddd;
+    cursor: pointer;
+    color: #000;
+    
+}
+
+.middle section >ul >li >a:hover{
+    background-color: #ddd;
+    cursor: pointer;
+    color: #000;
+}
+
+.middle-section ul >li> a{
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.icons-section{
+    display: flex;
+    align-items: center;
+    gap: 1opx;
+    color: #fff;
+
+}
+.icons-section:hover{
+    cursor: pointer;
+}
+
+.main-content{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 55px 0 0 0;
+}
+
+.main-content >h1{
+    font-size: 56px;
+}
+
+.main-content >a{
+    color: #fff;
+    font-size: 28px;
+    text-underline-offset: 7px;
+}
+
+.main-content >p{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 8px 0 0 0;
+}
+
+.buttons-section{
+display: flex;
+justify-content: center;
+flex-direction: row;
+gap: 15px
+
+}
+
+.blue-btn, .white-btn{
+    padding: 10px 50px;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+.blue-btn{
+    background-color: #3e6ae0;
+    color: #fff;
+}
+
+.blue-btn:hover{
+    background-color: #fefefe;
+    color: #515458;
+}
+
+.white-btn{
+    background-color: #fefefe;
+    color: #515458;
+}
+.white-btn:hover{
+    background-color: #3e6ae0;
+    color: #515458;
+}
+
+.body-content-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90vh;
+    align-items: center;
+}
+
+.blue-btn, .white-btn{
+    width: 265px;
+    height: 40px;
+    text-align: center;
+}
